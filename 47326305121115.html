@@ -1,0 +1,350 @@
+﻿<html>
+<head>
+<title>手机BD473-主区26-30+482+辅区S578-66=BD512-11-15</title>
+<style type="text/css">
+
+
+#flex1{
+  display: none;
+}
+#flex10{
+  display: none;
+}
+.div_iframe0{
+  width: 486px;
+  height: 291px;
+  overflow: hidden;
+}
+#iframe01, #iframe02, #iframe03{
+  width: 786px;
+  height: 481px;
+  --border: 1px solid black;
+  --position:absolute;
+  --transform: scale(0.6);
+  --transform-origin: 0 0;
+  --left: 1px;
+
+}
+#grid-container0 {
+  display: none;
+  grid-template-columns: 120px 120px 120px;--grid-template-columns分3列，每列宽度可指定;
+  grid-gap: 2px;
+  background-color: #2196F3;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.grid-container0 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1px 0;
+  font-size: 20px;
+}
+
+
+
+.div_iframe1{
+  width: 486px;
+  height: 291px;
+  overflow: hidden;
+}
+#div_iframe1_0a, #div_iframe1_0b{
+  width: 50%;
+  float: left;
+  background-color: #2196F3;
+}
+#div_iframe1_1, #div_iframe1_2, #div_iframe1_3, #div_iframe1_4, #div_iframe1_5, #div_iframe1_1b, #div_iframe1_2b, #div_iframe1_3b, #div_iframe1_4b, #div_iframe1_5b{
+  --width: 486px;
+  height: 291px;
+  overflow: hidden;
+  display: block;
+}
+
+#iframe1, #iframe2, #iframe3, #iframe4, #iframe5{
+  width: 786px;
+  height: 481px;
+  border: 1px solid black;
+  position:absolute;
+  transform: scale(0.6);
+  transform-origin: 0 0;
+  left: 16px;
+background-color: rgba(255, 255, 255, 0.8);
+  z-index: 11;
+}
+#iframe1b, #iframe2b, #iframe3b, #iframe4b, #iframe5b{
+  width: 786px;
+  height: 481px;
+  border: 1px solid black;
+  position:absolute;
+  transform: scale(0.6);
+  transform-origin: 0 0;
+  --left: 16px;
+background-color: rgba(255, 255, 255, 0.8);
+  z-index: 12;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 486px 120px;--grid-template-columns分2列，每列宽度可指定;
+  grid-gap: 2px;
+  background-color: #2196F3;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1px 0;
+  font-size: 20px;
+}
+</style>
+
+<script type="text/javascript">
+function handleClickk() {} //按钮空函数
+// 定义点击按钮后的事件处理函数
+function handleClick() {
+// 获取按钮元素和目标div元素
+var toggleButton = document.getElementById("toggleButton");
+var targetDiv = document.getElementById("flex1");
+var targetDiv10 = document.getElementById("flex10");
+var targetDiv0 = document.getElementById("grid-container0");
+
+    // 判断目标div的显示状态
+    if (targetDiv.style.display == "none") {
+        // 如果目标div已经隐藏，则将其显示出来
+        //targetDiv.style.display = "flex";
+        targetDiv.style.display = "block";
+        targetDiv10.style.display = "block";
+        targetDiv0.style.display = "grid";
+	document.getElementById("toggleButton").value="隐藏顶部";
+    } else {
+        // 否则将其隐藏起来
+        targetDiv.style.display = "none";
+        targetDiv10.style.display = "none";
+        targetDiv0.style.display = "none";
+	document.getElementById("toggleButton").value="显示顶部";
+    }
+}
+
+
+function handleClickcd(id1, id2) {
+  var iframe1bleft = document.getElementById(id1);
+  var tButton1b1 = document.getElementById(id2);
+  if (iframe1bleft.style.left != ""){
+    iframe1bleft .style.left = ""; tButton1b1.value = "层叠"; iframe1bleft .style.zIndex=10;
+  } else {
+    iframe1bleft .style.left = 60; tButton1b1.value = "恢复"; iframe1bleft .style.zIndex="";
+  }
+}
+
+function handleClickychf(id1, id2, id3) {
+ var toggleButton1 = document.getElementById(id1); 
+ var targetDiv1 = document.getElementById(id2); 
+ var diviframe1_1 = document.getElementById(id3);
+    if (targetDiv1.style.display === "none") {  targetDiv1.style.display = "block";  diviframe1_1.style.display = "block";  toggleButton1.value="隐藏左项"; 
+    } else {  targetDiv1.style.display = "none";  diviframe1_1.style.display = "none";  toggleButton1.value="显示左项"; }
+}
+
+function handleClick1() { var toggleButton1 = document.getElementById("toggleButton1"); var targetDiv1 = document.getElementById("iframe1"); var diviframe1_1 = document.getElementById("div_iframe1_1");
+    if (targetDiv1.style.display === "none") {  targetDiv1.style.display = "block";  diviframe1_1.style.display = "block";  document.getElementById("toggleButton1").value="隐藏左项"; }
+    else {  targetDiv1.style.display = "none";  diviframe1_1.style.display = "none";  document.getElementById("toggleButton1").value="显示左项"; } }
+
+function refreshIframe(id){
+    var iframez = document.getElementById(id);
+    iframez.src = iframez.title;
+}
+
+
+function refreshIframe1a(){
+    var iframez = document.getElementById('iframe1');
+    iframez.src = "https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1672993302825&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-30+17%3A51%3A53&sign=A71784458239B97059C6B699283C9651";
+}
+
+function refreshIframe2a(){
+    var iframez = document.getElementById('iframe2');
+    iframez.src = "https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1673074486760&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-29+17%3A48%3A37&sign=94E9DA46195E905CBC3EB904C0D96214";
+}
+
+function refreshIframe3a(){
+    var iframez = document.getElementById('iframe3');
+    iframez.src = "https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1654218621672&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-28+20%3A28%3A42&sign=821D0A7C4D0497CFF041AB2E6207F6B1";
+}
+
+function refreshIframe4a(){
+    var iframez = document.getElementById('iframe4');
+    iframez.src = "https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1672993332282&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-30+17%3A46%3A28&sign=7BF683DAE42FE21F7B17C565C67A12D2";
+}
+
+function refreshIframe5a(){
+    var iframez = document.getElementById('iframe5');
+    iframez.src = "https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1673074495348&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-29+17%3A51%3A36&sign=6CFAD5722086F8906D152E8581C26414";
+}
+function displayDate(){
+    var iframezz = document.getElementById('666');
+    iframezz.innerHTML = "hhh";
+}
+function displayDate1(){
+    var iframezz = document.getElementById('666');
+    iframezz.innerHTML = "6";
+}
+</script>
+
+</head>
+
+<body>
+
+
+<div id="flex10" style="display: none;">
+<h1>grid-template-columns 属性</h1>
+<p>
+<input id="toggleButtond" type="button" onclick="handleClick();" value="隐藏顶部" />
+grid-template-columns 属性定义了网格布局中的列的数量。
+</p>
+</div>
+
+<div id="flex1" style="display: none;">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=20618770&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=546&cm_flag=n&timestamp=2024-10-11+16%3A48%3A48&sign=1527685DCE063EF49ECCF71470270121" name="iframe0" id="iframe01"></iframe><br>
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1657028630320&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=522&cm_flag=n&timestamp=2023-07-01+06%3A38%3A06&sign=222888FA20F1924F305714D2D73E2DE3" name="iframe0" id="iframe02"></iframe><br>
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1654701736461&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=539&cm_flag=n&timestamp=2023-02-19+09%3A05%3A42&sign=66A62D800230CC568D74FF4686F27FFC" name="iframe0" id="iframe03"></iframe><br>
+</div>
+
+<div id="grid-container0" style="display: none;">
+  <div>1<input type="button" onclick="refreshIframe('iframe01');" value="473d001" /></div>
+  <div>2<input type="button" onclick="refreshIframe('iframe02');" value="473d002" /></div>
+  <div>3<input type="button" onclick="refreshIframe('iframe03');" value="473d003" /></div>
+  <div>11</div>
+  <div>12</div>
+  <div>13</div>
+</div>
+
+
+<div id="div_iframe1_0a">
+<div>
+530主号21
+<input type="button" onclick="refreshIframe('iframe1');" value="473d001刷新" />
+<!--input type="button" onclick="refreshIframe1a();" value="2辅区号刷新" /-->
+<input id="toggleButton1" type="button" onclick='handleClickychf("toggleButton1", "iframe1", "div_iframe1_1") ;' value="隐藏左项" />
+<input id="toggleButton" type="button" onclick="handleClick();" value="显示顶部" />
+</div>
+<div id="div_iframe1_1">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1672993332282&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=530&cm_flag=n&timestamp=2023-02-22+19%3A53%3A33&sign=F1DDA344619490903AD26C49C69398BF" name="iframe1" id="iframe1"></iframe>
+</div>
+
+<div>
+530主号22
+<input type="button" onclick="refreshIframe('iframe2');" value="473d002刷新" />
+<!--input type="button" onclick="refreshIframe2a();" value="2辅区号刷新" /-->
+<input id="toggleButton2" type="button" onclick='handleClickychf("toggleButton2", "iframe2", "div_iframe1_2") ;' value="隐藏左项" />
+<input id="toggleButton" type="button" onclick="handleClickk();" value="显示顶部" />
+</div>
+<div id="div_iframe1_2">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1673074486760&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=530&cm_flag=n&timestamp=2023-02-22+07%3A22%3A29&sign=B44B6C3F0943297B8B542AB341452BA4" name="iframe2" id="iframe2"></iframe>
+</div>
+
+<div>
+530主号23
+<input type="button" onclick="refreshIframe('iframe3');" value="473d003刷新" />
+<!--input type="button" onclick="refreshIframe3a();" value="2辅区号刷新" /-->
+<input id="toggleButton3" type="button" onclick='handleClickychf("toggleButton3", "iframe3", "div_iframe1_3") ;' value="隐藏左项" />
+<input id="toggleButton" type="button" onclick="handleClickk();" value="显示顶部" />
+</div>
+<div id="div_iframe1_3">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1673074495348&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=530&cm_flag=n&timestamp=2023-02-22+07%3A24%3A50&sign=C6044F6B0590AE323FF76BF0F31D23C9" name="iframe3" id="iframe3"></iframe>
+</div>
+
+<div>
+530主号24
+<input type="button" onclick="refreshIframe('iframe4');" value="473d004刷新" />
+<!--input type="button" onclick="refreshIframe4a();" value="2辅区号刷新" /-->
+<input id="toggleButton4" type="button" onclick='handleClickychf("toggleButton4", "iframe4", "div_iframe1_4") ;' value="隐藏左项" />
+<input id="toggleButton" type="button" onclick="handleClickk();" value="显示顶部" />
+</div>
+<div  id="div_iframe1_4">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1673074503330&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=530&cm_flag=n&timestamp=2023-02-22+07%3A25%3A35&sign=2CA2C52E1BE374C9FAF93A0F7B2940CF" name="iframe4" id="iframe4"></iframe>
+</div>
+
+<div>
+530主号25
+<input type="button" onclick="refreshIframe('iframe5');" value="473d005刷新" />
+<!--input type="button" onclick="refreshIframe5a();" value="2辅区号刷新" /-->
+<input id="toggleButton5" type="button" onclick='handleClickychf("toggleButton5", "iframe5", "div_iframe1_5") ;' value="隐藏左项" />
+<input id="toggleButton" type="button" onclick="handleClickk();" value="显示顶部" />
+</div>
+<div id="div_iframe1_5">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=532484474&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=530&cm_flag=n&timestamp=2023-02-22+08%3A15%3A40&sign=331F0DBCACF7DD2670C34F2D97BD0E74" name="iframe5" id="iframe5"></iframe>
+</div>
+</div>
+
+
+
+
+
+
+
+<div id="div_iframe1_0b">
+<div>
+1S482378
+<input type="button" onclick="refreshIframe('iframe1b');" value="D51206101刷新" />
+<input id="toggleButton1b" type="button" onclick='handleClickychf("toggleButton1b", "iframe1b", "div_iframe1_1b") ;' value="隐藏左项" />
+<input id="tButton1b1" type="button" onclick='handleClickcd("iframe1b", "tButton1b1");' value="层叠" />
+<!--input type="button" onclick="refreshIframe1ab();" value="2辅区号刷新" />
+<input id="toggleButton" type="button" onclick="handleClick();" value="隐藏顶部" /-->
+</div>
+<div id="div_iframe1_1b">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1671106124232&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-29+13%3A21%3A40&sign=F64D3902D562E82BE5D44A9DBAF928A9" name="iframe1b" id="iframe1b"></iframe>
+</div>
+
+<div>
+1S482378
+<input type="button" onclick="refreshIframe('iframe2b');" value="D51206102刷新" />
+<!--input type="button" onclick="refreshIframe2ab();" value="2辅区号刷新" /-->
+<input id="toggleButton2b" type="button" onclick='handleClickychf("toggleButton2b", "iframe2b", "div_iframe1_2b") ;' value="隐藏左项" />
+<input id="tButton2b" type="button" onclick='handleClickcd("iframe2b", "tButton2b");' value="层叠" />
+</div>
+<div id="div_iframe1_2b">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1671106143573&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-29+13%3A25%3A21&sign=9AC9650C1836060EEC56A0C48781A8FB" name="iframe2b" id="iframe2b"></iframe>
+</div>
+
+<div>
+随风DSA008
+<input type="button" onclick="refreshIframe('iframe3b');" value="D51206103刷新" />
+<!--input type="button" onclick="refreshIframe3ab();" value="2辅区号刷新" /-->
+<input id="toggleButton3b" type="button" onclick='handleClickychf("toggleButton3b", "iframe3b", "div_iframe1_3b") ;' value="隐藏左项" />
+<input id="tButton3b" type="button" onclick='handleClickcd("iframe3b", "tButton3b");' value="层叠" />
+</div>
+<div id="div_iframe1_3b">
+  <iframe src="" title="" name="iframe3b" id="iframe3b"></iframe>
+</div>
+
+<div>
+随风DSA009
+<input type="button" onclick="refreshIframe('iframe4b');" value="D51206104刷新" />
+<!--input type="button" onclick="refreshIframe4ab();" value="2辅区号刷新" /-->
+<input id="toggleButton4b" type="button" onclick='handleClickychf("toggleButton4b", "iframe4b", "div_iframe1_4b") ;' value="隐藏左项" />
+<input id="tButton4b" type="button" onclick='handleClickcd("iframe4b", "tButton4b");' value="层叠" />
+</div>
+<div  id="div_iframe1_4b">
+  <iframe src="" title="" name="iframe4b" id="iframe4b"></iframe>
+</div>
+
+<div>
+随风DSA010
+<input type="button" onclick="refreshIframe('iframe5b');" value="D51206105刷新" />
+<!--input type="button" onclick="refreshIframe5ab();" value="2辅区号刷新" /-->
+<input id="toggleButton5b" type="button" onclick='handleClickychf("toggleButton5b", "iframe5b", "div_iframe1_5b") ;' value="隐藏左项" />
+<input id="tButton5b" type="button" onclick='handleClickcd("iframe5b", "tButton5b");' value="层叠" />
+</div>
+<div id="div_iframe1_5b">
+  <iframe src="" title="" name="iframe5b" id="iframe5b"></iframe>
+</div>
+</div>
+
+
+
+
+<div class="grid-container">
+</div>
+
+
+
+</body>                                                                                                       
