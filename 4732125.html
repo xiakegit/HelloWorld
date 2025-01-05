@@ -1,0 +1,341 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机BD473号21-25主区</title>
+<style type="text/css">
+
+
+#flex1{
+  display: block;
+  --display: flex;
+}
+#flex11{
+  display: block;
+}
+.div_iframe0{
+  width: 486px;
+  height: 291px;
+  overflow: hidden;
+}
+#iframe01, #iframe02, #iframe03{
+  width: 786px;
+  height: 481px;
+  --border: 1px solid black;
+  --position:absolute;
+  --transform: scale(0.6);
+  --transform-origin: 0 0;
+  --left: 1px;
+
+}
+#grid-container0 {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;--grid-template-columns分3列，每列宽度可指定;
+  grid-gap: 2px;
+  background-color: #2196F3;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.grid-container0 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1px 0;
+  font-size: 20px;
+}
+
+
+
+.div_iframe1{
+  width: 486px;
+  height: 291px;
+  overflow: hidden;
+}
+
+#div_iframe1_0a{
+display: flex;
+background-color: #2196F3;
+}
+
+#div_iframe1_1, #div_iframe1_2, #div_iframe1_3, #div_iframe1_4, #div_iframe1_5{
+  width: 486px;
+  height: 291px;
+  overflow: hidden;
+  display: block;
+}
+
+#iframe1, #iframe2, #iframe3, #iframe4, #iframe5{
+  width: 786px;
+  height: 481px;
+  border: 1px solid black;
+  position:absolute;
+  transform: scale(0.6);
+  transform-origin: 0 0;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 486px 120px;--grid-template-columns分2列，每列宽度可指定;
+  grid-gap: 2px;
+  background-color: #2196F3;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1px 0;
+  font-size: 20px;
+}
+
+#div_iframe1_00 {
+    background-color: #2196F3;
+}
+
+.flex-item {
+  margin-right: 10px; /* 可以根据需要调整间距 */
+}
+
+</style>
+
+<script type="text/javascript">
+
+// 定义点击按钮后的事件处理函数
+function handleClick() {
+// 获取按钮元素和目标div元素
+var toggleButton = document.getElementById("toggleButton");
+var targetDiv = document.getElementById("flex1");
+var targetDiv10 = document.getElementById("flex10");
+var targetDiv0 = document.getElementById("grid-container0");
+
+    // 判断目标div的显示状态
+    if (targetDiv.style.display === "none") {
+        // 如果目标div已经隐藏，则将其显示出来
+        //targetDiv.style.display = "flex";
+        targetDiv.style.display = "block";
+        targetDiv10.style.display = "block";
+        targetDiv0.style.display = "grid";
+	document.getElementById("toggleButton").value="隐藏顶部";
+    } else {
+        // 否则将其隐藏起来
+        targetDiv.style.display = "none";
+        targetDiv10.style.display = "none";
+        targetDiv0.style.display = "none";
+	document.getElementById("toggleButton").value="显示顶部";
+    }
+}
+
+function handleClickhf() { 
+  document.getElementById("iframe2").style.left = "";  
+  document.getElementById("iframe3").style.left = ""; 
+  document.getElementById("iframe4").style.left = ""; 
+  document.getElementById("iframe5").style.left = ""; 
+}
+function handleClickcd() { 
+  document.getElementById("iframe2").style.left = "40px";  
+  document.getElementById("iframe3").style.left = "80px"; 
+  document.getElementById("iframe4").style.left = "120px"; 
+  document.getElementById("iframe5").style.left = "160px"; 
+}
+
+  // 通过JavaScript动态添加display属性
+  function toggleDisplay(elementId, displayValue) {
+    var element = document.getElementById(elementId);
+    element.style.display = displayValue;
+  }
+
+function handleClickhs(id1, id2, dp1, dp2, vl1, vl2) { var toggleButtonhs = document.getElementById(id1); var targetDivhs = document.getElementById(id2);
+    if (  targetDivhs.style.display === dp2) {  targetDivhs.style.display = dp1;  toggleButtonhs.value = vl1; }
+    else {  targetDivhs.style.display = dp2;   toggleButtonhs.value = vl2; } }
+
+function handleClickyx(id1, id2, id3, dp1, dp2, vl1, vl2) { var toggleButtonhs = document.getElementById(id1); var targetDivhs = document.getElementById(id2); var diviframe1_1 = document.getElementById(id3);
+    if (  targetDivhs.style.display === dp2) {  targetDivhs.style.display = dp1; diviframe1_1.style.display = dp1;  toggleButtonhs.value = vl1; }
+    else {  targetDivhs.style.display = dp2;  diviframe1_1.style.display = "none";   toggleButtonhs.value = vl2; } }
+
+function handleClickhs1() { var toggleButtonhs = document.getElementById("toggleButtonhs");var targetDivhs = document.getElementById("div_iframe1_0a");
+    if (targetDivhs.style.display === "block") {  targetDivhs.style.display = "flex";  document.getElementById("toggleButtonhs").value="竖排"; }
+    else {  targetDivhs.style.display = "block";   document.getElementById("toggleButtonhs").value="横排"; } }
+
+function handleClick1() { var toggleButton1 = document.getElementById("toggleButton1"); var targetDiv1 = document.getElementById("iframe1"); var diviframe1_1 = document.getElementById("div_iframe1_1");
+    if (targetDiv1.style.display === "none") {  targetDiv1.style.display = "block";  diviframe1_1.style.display = "block";  document.getElementById("toggleButton1").value="隐藏左项"; }
+    else {  targetDiv1.style.display = "none";  diviframe1_1.style.display = "none";  document.getElementById("toggleButton1").value="显示左项"; } }
+
+function refreshIframe01(){
+    var iframez = document.getElementById('iframe01');
+    iframez.src = iframez.title;
+}
+function refreshIframe02(){
+    var iframez = document.getElementById('iframe02');
+    iframez.src = iframez.title;
+}
+function refreshIframe03(){
+    var iframez = document.getElementById('iframe03');
+    iframez.src = iframez.title;
+}
+
+function refreshIframe1(){
+    var iframez = document.getElementById('iframe1');
+    iframez.src = iframez.title;
+}
+function refreshIframe1a(){
+    var iframez = document.getElementById('iframe1');
+    iframez.src = "https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1672993302825&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-30+17%3A51%3A53&sign=A71784458239B97059C6B699283C9651";
+}
+function refreshIframe2(){
+    var iframez = document.getElementById('iframe2');
+    iframez.src = iframez.title;
+}
+function refreshIframe2a(){
+    var iframez = document.getElementById('iframe2');
+    iframez.src = "https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1673074486760&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-29+17%3A48%3A37&sign=94E9DA46195E905CBC3EB904C0D96214";
+}
+function refreshIframe3(){
+    var iframez = document.getElementById('iframe3');
+    iframez.src = iframez.title;
+}
+function refreshIframe3a(){
+    var iframez = document.getElementById('iframe3');
+    iframez.src = "https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1654218621672&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-28+20%3A28%3A42&sign=821D0A7C4D0497CFF041AB2E6207F6B1";
+}
+function refreshIframe4(){
+    var iframez = document.getElementById('iframe4');
+    iframez.src = iframez.title;
+}
+function refreshIframe4a(){
+    var iframez = document.getElementById('iframe4');
+    iframez.src = "https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1672993332282&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-30+17%3A46%3A28&sign=7BF683DAE42FE21F7B17C565C67A12D2";
+}
+function refreshIframe5(){
+    var iframez = document.getElementById('iframe5');
+    iframez.src = iframez.title;
+}
+function refreshIframe5a(){
+    var iframez = document.getElementById('iframe5');
+    iframez.src = "https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1673074495348&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=482&cm_flag=n&timestamp=2023-03-29+17%3A51%3A36&sign=6CFAD5722086F8906D152E8581C26414";
+}
+function displayDate(){
+    var iframezz = document.getElementById('666');
+    iframezz.innerHTML = "hhh";
+}
+function displayDate1(){
+    var iframezz = document.getElementById('666');
+    iframezz.innerHTML = "6";
+}
+</script>
+
+</head>
+
+<body>
+
+
+<div id="flex10">
+<h1>grid-template-columns 属性</h1>
+<p>grid-template-columns 属性定义了网格布局中的列的数量。</p>
+</div>
+
+
+<div id="flex1">
+</div>
+<div id="grid-container0">
+</div>
+
+<div id="div_iframe1_00">
+<input id="toggleButton" type="button" onclick="handleClick();" value="隐藏顶部" />
+<input id="toggleButtonhf" type="button" onclick="handleClickhf();" value="恢复" />
+<input id="toggleButtoncd" type="button" onclick="handleClickcd();" value="层叠" />
+<input id="toggleButtonhs" type="button" onclick='handleClickhs("toggleButtonhs", "div_iframe1_0a", "flex", "block", "竖排", "横排");' value="横排" />
+<input id="toggleButton1a1" type="button" onclick='handleClickyx("toggleButton1", "iframe1", "div_iframe1_1", "block", "none", "隐藏左项", "显示左项");' value="同步操作1" />
+<input id="toggleButton1a2" type="button" onclick='handleClickyx("toggleButton2", "iframe2", "div_iframe1_2", "block", "none", "隐藏左项", "显示左项");' value="同步操作2" />
+<input id="toggleButton1a3" type="button" onclick='handleClickyx("toggleButton3", "iframe3", "div_iframe1_3", "block", "none", "隐藏左项", "显示左项");' value="同步操作3" />
+<input id="toggleButton1a4" type="button" onclick='handleClickyx("toggleButton4", "iframe4", "div_iframe1_4", "block", "none", "隐藏左项", "显示左项");' value="同步操作4" />
+<input id="toggleButton1a5" type="button" onclick='handleClickyx("toggleButton5", "iframe5", "div_iframe1_5", "block", "none", "隐藏左项", "显示左项");' value="同步操作5" />
+</div>
+<div id="div_iframe1_0a">
+<div class="flex-item">
+<div>
+
+跨区4810000003
+<input type="button" onclick="refreshIframe1();" value="1530=473d001刷新" />
+<!--input type="button" onclick="refreshIframe1a();" value="2辅区号刷新" /-->
+<input id="toggleButton1" type="button" onclick='handleClickyx("toggleButton1", "iframe1", "div_iframe1_1", "block", "none", "隐藏左项", "显示左项");'  value="隐藏左项" />
+</div>
+<div id="div_iframe1_1">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1671347303889&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=530&cm_flag=n&timestamp=2023-02-22+07%3A06%3A28&sign=9CA51A371F6F6647BC375724E1431439" name="iframe1" id="iframe1"></iframe>
+</div>
+</div>
+
+<div class="flex-item">
+<div>
+跨区481DS00001
+<input type="button" onclick="refreshIframe2();" value="1530=473d002刷新" />
+<!--input type="button" onclick="refreshIframe2a();" value="2辅区号刷新" /-->
+<input id="toggleButton2" type="button" onclick='handleClickyx("toggleButton2", "iframe2", "div_iframe1_2", "block", "none", "隐藏左项", "显示左项");'  value="隐藏左项" />
+</div>
+<div id="div_iframe1_2">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1672983928319&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=530&cm_flag=n&timestamp=2023-02-22+19%3A50%3A27&sign=FEA06BF4658B2800FFE914906BD9E5F1" name="iframe2" id="iframe2"></iframe>
+</div>
+</div>
+
+<div class="flex-item">
+<div>
+跨区481DS00002
+<input type="button" onclick="refreshIframe3();" value="1530=473d003刷新" />
+<!--input type="button" onclick="refreshIframe3a();" value="2辅区号刷新" /-->
+<input id="toggleButton3" type="button" onclick='handleClickyx("toggleButton3", "iframe3", "div_iframe1_3", "block", "none", "隐藏左项", "显示左项");'  value="隐藏左项" />
+</div>
+<div id="div_iframe1_3">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1672992454073&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=530&cm_flag=n&timestamp=2023-02-22+19%3A51%3A15&sign=83D718E6086301136C15FE2B25E0FCF9" name="iframe3" id="iframe3"></iframe>
+</div>
+</div>
+
+<div class="flex-item">
+<div>
+跨区481DS00003
+<input type="button" onclick="refreshIframe4();" value="1530=473d004刷新" />
+<!--input type="button" onclick="refreshIframe4a();" value="2辅区号刷新" /-->
+<input id="toggleButton4" type="button" onclick='handleClickyx("toggleButton4", "iframe4", "div_iframe1_4", "block", "none", "隐藏左项", "显示左项");'  value="隐藏左项" />
+</div>
+<div  id="div_iframe1_4">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1672993302825&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=530&cm_flag=n&timestamp=2023-02-22+19%3A52%3A02&sign=BF250C37627E22F29F3BD48C9041CCB7" name="iframe4" id="iframe4"></iframe>
+</div>
+</div>
+
+<div class="flex-item">
+<div>
+跨区481主号 道士
+<input type="button" onclick="refreshIframe5();" value="1530=473d005刷新" />
+<!--input type="button" onclick="refreshIframe5a();" value="2辅区号刷新" /-->
+<input id="toggleButton5" type="button" onclick='handleClickyx("toggleButton5", "iframe5", "div_iframe1_5", "block", "none", "隐藏左项", "显示左项");'  value="隐藏左项" />
+</div>
+<div id="div_iframe1_5">
+  <iframe src="" title="https://rk.yscq-wy.yscq.com/12/login_bd.php?act=gamelogin&user_id=1672993318233&api_key=5b9785cc05c17568c967bf7a724622e8&server_id=530&cm_flag=n&timestamp=2023-02-22+19%3A52%3A51&sign=089CC780B76E2EEF742206A0FE760449" name="iframe5" id="iframe5"></iframe>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!--div class="grid-container">
+
+  <div>1<button type="button" onclick="displayDate()">shua</button><input type="button" value="Click me" onclick="displayDate1()"><input type="button" value="Hello" onclick="alert('Hello World')"></div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>  
+  <div>7</div>
+  <div>8</div>
+
+
+
+</div-->
+                                                                                                                                    
